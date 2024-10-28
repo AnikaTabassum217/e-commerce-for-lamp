@@ -11,7 +11,7 @@ export default function Home() {
 
   const login=(e: FormEvent<HTMLFormElement>)=>{
     e.preventDefault();
-    if(userName==='anika@atilimited.net' && password==='123'){
+    if(userName==='anika@gmail.com' && password==='123'){
       localStorage.setItem('user','true');
       setUserName(' ');
       setPassword(' ');
